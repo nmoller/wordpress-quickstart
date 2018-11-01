@@ -7,6 +7,7 @@ for i in $(find . -name 'classic-standalone.json');\
 do \
 python -c 'import sys,json,yaml;print(yaml.safe_dump(json.loads(sys.stdin.read()), default_flow_style=False))' < $i > ${i/json/yaml};\
 done
+```
 
 
 This repository implements a way of quickly deploying WordPress to OpenShift 3.
