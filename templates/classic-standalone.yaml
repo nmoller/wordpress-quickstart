@@ -282,7 +282,7 @@ parameters:
 - description: The URL of the quickstart Git repository.
   name: QUICKSTART_REPOSITORY_URL
   required: true
-  value: https://github.com/openshift-evangelists/wordpress-quickstart
+  value: https://github.com/nmoller/wordpress-quickstart
 - description: Size of the persistent volume for Wordpress.
   name: WORDPRESS_VOLUME_SIZE
   required: true
