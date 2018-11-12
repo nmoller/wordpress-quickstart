@@ -43,6 +43,7 @@ objects:
     source:
       git:
         uri: ${QUICKSTART_REPOSITORY_URL}
+        ref: dev-01
       type: Git
     strategy:
       sourceStrategy:
